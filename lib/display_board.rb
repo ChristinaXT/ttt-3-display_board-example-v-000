@@ -4,9 +4,9 @@ def display_board
   cell = "   "
   separate = "|"
   lines = "-----------"
-puts " #{cell[0]} #{separate} #{cell[1]} #{separate} #{cell[2]} "
+puts " #{cell} #{separate} #{cell} #{separate} #{cell} "
 puts "#{lines} "
-puts " #{cell[3]} #{separate} #{cell[4]} #{separate} #{cell[5]} "
+puts " #{cell} #{separate} #{cell} #{separate} #{cell} "
 puts "#{lines} "
-puts " #{cell[6]} #{separate} #{cell[7]} #{separate} #{cell[8]} "
+puts " #{cell} #{separate} #{cell} #{separate} #{cell} "
 end
