@@ -2,7 +2,6 @@
 def display_board 
   separator = "|"
   lines = "-----------"
-  puts "A Tic Tac Toe Board"
   puts " #{board[0]} #{separator} #{board[1]} #{separator} #{board[2]} "
   puts " #{lines}"
   puts " #{board[3]} #{separator} #{board[4]} #{separator} #{board[5]}"
