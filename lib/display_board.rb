@@ -1,5 +1,5 @@
 # Define a method display_board that prints a 3x3 Tic Tac Toe Board
-def display_board (board)
+def display_board 
   separator = "|"
   lines = "-----------"
   puts " #{board[0]} #{separator} #{board[1]} #{separator} #{board[2]} " 
